@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Map API</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <script src="app.js"></script>
+  
+  <style>
+    #map{
+      height: 600px;
+      width: 1000px;
+    }
+  </style>
+</head>
+
+<body>
+    <input id="autoSearch" type="text" placeholder="Where to..?"><br/>
+    <br/>
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxaVt_eZ58RabDAKyRiE8HDrsRtJO7apc &libraries=places&callback=initMap"
+    async defer></script>
+  </body>
+</html>
